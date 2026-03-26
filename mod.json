@@ -1,0 +1,16 @@
+{
+  "name": "Evolutionary Races - Ascension Mod",
+  "version": "1.0",
+  "description": "50 évolutions uniques par race - Démon, Ange, Dragon, Humain, Esprit, Dieu",
+  "author": "Evolution Modder",
+  "constants": {
+    "unitUpgradeCost": {
+      "base": 50,
+      "evolutionMultiplier": 1.2
+    }
+  },
+  "uniques": [
+    "Can only be built in [Capital] cities",
+    "Requires at least [10] population in city"
+  ]
+}
