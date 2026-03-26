@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Empire Démoniaque",
+    "leaderName": "Malphas l'Ascendant",
+    "uniqueTo": "Démons",
+    "startBias": ["Jungle", "Hill"],
+    "uniques": [
+      "Starts with [Corruption] knowledge",
+      "Units gain +50% XP from combat",
+      "Can upgrade units using [Souls] instead of [Gold]",
+      "Cities gain +2 [Faith] from [Corrupted Land]"
+    ],
+    "colors": ["Dark Red", "Black"]
+  },
+  {
+    "name": "Royaume Céleste",
+    "leaderName": "Auriel la Radiante",
+    "uniqueTo": "Anges",
+    "startBias": ["Plains", "Hill"],
+    "uniques": [
+      "Units heal +15 HP per turn outside friendly territory",
+      "Can see invisible units within 3 tiles",
+      "Cities gain +2 [Happiness] from [Holy Sites]"
+    ],
+    "colors": ["Gold", "White"]
+  },
+  {
+    "name": "Clan Draconique",
+    "leaderName": "Ignis le Primordial",
+    "uniqueTo": "Dragons",
+    "startBias": ["Mountain", "Hill"],
+    "uniques": [
+      "Units start with +15 HP",
+      "Can move through Mountains after [Flight]",
+      "Capital gains +1 [Production] from each [Mountain]"
+    ],
+    "colors": ["Dark Orange", "Red"]
+  },
+  {
+    "name": "Royaume des Esprits",
+    "leaderName": "Etherea l'Insaisissable",
+    "uniqueTo": "Esprits",
+    "startBias": ["Forest", "Jungle"],
+    "uniques": [
+      "Units can pass through impassable tiles",
+      "Invisible until attacking",
+      "Cities gain +1 [Science] from [Forest]"
+    ],
+    "colors": ["Light Blue", "Cyan"]
+  },
+  {
+    "name": "Confédération Humaine",
+    "leaderName": "Marcus l'Innovateur",
+    "uniqueTo": "Humains",
+    "startBias": ["Plains", "Coast"],
+    "uniques": [
+      "25% faster technology research",
+      "Double quantity of [Great People] produced",
+      "Cities gain +1 [Production] from [Specialists]"
+    ],
+    "colors": ["Blue", "White"]
+  },
+  {
+    "name": "Panthéon Primordial",
+    "leaderName": "Chronos l'Éternel",
+    "uniqueTo": "Dieux",
+    "startBias": ["Mountain"],
+    "uniques": [
+      "Can construct [Divine Throne] wonder",
+      "Units can be upgraded for free",
+      "Starts with [Divine Spark] technology",
+      "Cities gain +5 [Faith] and +5 [Culture]"
+    ],
+    "colors": ["Purple", "Gold"]
+  }
+]
