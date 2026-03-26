@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Éveil Spirituel",
+    "cost": 50,
+    "era": "Ancient",
+    "uniques": ["Enables evolution paths for all races"]
+  },
+  {
+    "name": "Corruption Primordiale",
+    "cost": 80,
+    "era": "Ancient",
+    "uniques": ["Enables Tier 2 Démon units"],
+    "requiredTech": "Éveil Spirituel"
+  },
+  {
+    "name": "Lumière Céleste",
+    "cost": 80,
+    "era": "Ancient",
+    "uniques": ["Enables Tier 2 Ange units"],
+    "requiredTech": "Éveil Spirituel"
+  },
+  {
+    "name": "Essence Draconique",
+    "cost": 80,
+    "era": "Ancient",
+    "uniques": ["Enables Tier 2 Dragon units"],
+    "requiredTech": "Éveil Spirituel"
+  },
+  {
+    "name": "Conscience Collective",
+    "cost": 80,
+    "era": "Ancient",
+    "uniques": ["Enables Tier 2 Esprit units"],
+    "requiredTech": "Éveil Spirituel"
+  },
+  {
+    "name": "Ingéniosité Humaine",
+    "cost": 60,
+    "era": "Ancient",
+    "uniques": ["Enables Tier 2 Humain units"],
+    "requiredTech": "Éveil Spirituel"
+  },
+  {
+    "name": "Éveil Divin",
+    "cost": 100,
+    "era": "Ancient",
+    "uniques": ["Enables Tier 2 Dieu units"],
+    "requiredTech": "Éveil Spirituel"
+  }
+]
