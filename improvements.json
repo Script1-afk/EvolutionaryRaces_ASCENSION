@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Citadelle Démoniaque",
+    "uniqueTo": "Démons",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "turnsToBuild": 10,
+    "uniques": [
+      "Gives a defensive bonus of [50]%",
+      "Adjacent enemy units take [10] damage per turn",
+      "Provides [+2 Faith, +2 Production]"
+    ]
+  },
+  {
+    "name": "Sanctuaire Céleste",
+    "uniqueTo": "Anges",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Heals friendly units for [15] HP per turn",
+      "Provides [+3 Faith, +1 Culture]"
+    ]
+  },
+  {
+    "name": "Nid Draconique",
+    "uniqueTo": "Dragons",
+    "terrainsCanBeBuiltOn": ["Mountain", "Hill"],
+    "turnsToBuild": 12,
+    "uniques": [
+      "Generates [Gold] from each adjacent [Mountain]",
+      "Provides [+3 Production, +1 Science]"
+    ]
+  },
+  {
+    "name": "Portail Dimensionnel",
+    "uniqueTo": "Esprits",
+    "terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+    "turnsToBuild": 6,
+    "uniques": [
+      "Allows teleportation between Portals",
+      "Provides [+2 Science, +2 Culture]"
+    ]
+  },
+  {
+    "name": "Cité-Forteresse",
+    "uniqueTo": "Humains",
+    "terrainsCanBeBuiltOn": ["Land"],
+    "turnsToBuild": 7,
+    "uniques": [
+      "Increases city defense by [25]%",
+      "Provides [+3 Production, +1 Gold]"
+    ]
+  },
+  {
+    "name": "Trône Divin",
+    "uniqueTo": "Dieux",
+    "terrainsCanBeBuiltOn": ["Mountain"],
+    "turnsToBuild": 20,
+    "uniques": [
+      "Cannot be pillaged",
+      "Provides [+10 Faith, +5 Culture, +5 Science, +5 Gold, +5 Production]",
+      "All units gain [Divine Blessing] (+25% combat strength)"
+    ]
+  }
+]
