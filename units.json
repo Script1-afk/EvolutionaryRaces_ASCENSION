@@ -1,0 +1,773 @@
+[
+  {
+    "name": "Artisan Ténébreux",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "replaces": "Spearman",
+    "cost": 40,
+    "combat": 6,
+    "movement": 2,
+    "upgradesTo": "Entité Corrompue",
+    "uniques": [
+      "Gains [5] XP for every kill",
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Entité Corrompue",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 80,
+    "combat": 11,
+    "movement": 2,
+    "upgradesTo": "Malfaiteur des Ombres",
+    "uniques": [
+      "Gains [8] XP for every kill",
+      "[+25]% Combat Bonus in [Jungle] tiles",
+      "Invisible to non-adjacent units"
+    ]
+  },
+  {
+    "name": "Malfaiteur des Ombres",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 120,
+    "combat": 16,
+    "movement": 2,
+    "upgradesTo": "Seigneur Infernal",
+    "uniques": [
+      "Gains [12] XP for every kill",
+      "Can move after attacking",
+      "Ignores Zone of Control"
+    ]
+  },
+  {
+    "name": "Seigneur Infernal",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 160,
+    "combat": 22,
+    "movement": 2,
+    "upgradesTo": "Roi Démon Primordial",
+    "uniques": [
+      "Gains [15] XP for every kill",
+      "[+20]% Combat Bonus vs [Anges] units",
+      "Earns [50]% of killed unit's [Gold]"
+    ]
+  },
+  {
+    "name": "Roi Démon Primordial",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 200,
+    "combat": 28,
+    "movement": 3,
+    "upgradesTo": "Seigneur Démon Suprême",
+    "uniques": [
+      "Gains [20] XP for every kill",
+      "Can attack twice per turn",
+      "All adjacent units heal [10] HP per turn"
+    ]
+  },
+  {
+    "name": "Seigneur Démon Suprême",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 250,
+    "combat": 35,
+    "movement": 3,
+    "upgradesTo": "Démon Ultime du Néant",
+    "uniques": [
+      "Gains [25] XP for every kill",
+      "Damage is ignored when below [30] HP",
+      "Can build [Citadelle Démoniaque] improvements"
+    ]
+  },
+  {
+    "name": "Démon Ultime du Néant",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 300,
+    "combat": 42,
+    "movement": 3,
+    "upgradesTo": "Monarque Démoniaque",
+    "uniques": [
+      "Gains [30] XP for every kill",
+      "[+50]% Combat Bonus when fighting in enemy territory",
+      "Can parry melee attacks (reduces damage by 50%)"
+    ]
+  },
+  {
+    "name": "Monarque Démoniaque",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 360,
+    "combat": 50,
+    "movement": 4,
+    "upgradesTo": "Dieu Démon Primordial",
+    "uniques": [
+      "Gains [40] XP for every kill",
+      "Can capture defeated [Barbarian] units",
+      "All units within 2 tiles gain [15]% Combat Strength"
+    ]
+  },
+  {
+    "name": "Dieu Démon Primordial",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 420,
+    "combat": 60,
+    "movement": 4,
+    "upgradesTo": "Avatar de la Ruine",
+    "uniques": [
+      "Gains [50] XP for every kill",
+      "Attacks cause [5] damage to adjacent enemy units",
+      "Can move through impassable tiles"
+    ]
+  },
+  {
+    "name": "Avatar de la Ruine",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 500,
+    "combat": 72,
+    "movement": 4,
+    "upgradesTo": "Cataclysme Vivant",
+    "uniques": [
+      "Gains [60] XP for every kill",
+      "May attack multiple times per turn (max 3)",
+      "Enemy units within 2 tiles receive [20]% combat penalty"
+    ]
+  },
+  {
+    "name": "Cataclysme Vivant",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 600,
+    "combat": 85,
+    "movement": 4,
+    "upgradesTo": "Déchiqueteur Cosmique",
+    "uniques": [
+      "Gains [70] XP for every kill",
+      "When defeating a unit, heal [50] HP",
+      "Can pillage without using movement"
+    ]
+  },
+  {
+    "name": "Déchiqueteur Cosmique",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 700,
+    "combat": 100,
+    "movement": 5,
+    "upgradesTo": "Abomination Dimensionnelle",
+    "uniques": [
+      "Gains [80] XP for every kill",
+      "[+100]% Combat Bonus vs [Cities]",
+      "Can destroy tile improvements instantly"
+    ]
+  },
+  {
+    "name": "Abomination Dimensionnelle",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 800,
+    "combat": 120,
+    "movement": 5,
+    "upgradesTo": "Archidémon du Vide",
+    "uniques": [
+      "Gains [90] XP for every kill",
+      "Can create [Portail Démoniaque] improvement",
+      "Teleports between owned cities (cooldown 3 turns)"
+    ]
+  },
+  {
+    "name": "Archidémon du Vide",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 900,
+    "combat": 140,
+    "movement": 5,
+    "upgradesTo": "Seigneur des Abysses",
+    "uniques": [
+      "Gains [100] XP for every kill",
+      "Can summon a [Démon Mineur] unit every 5 turns",
+      "Enemy cities conquered become [Citadelle Démoniaque]"
+    ]
+  },
+  {
+    "name": "Seigneur des Abysses",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 1000,
+    "combat": 165,
+    "movement": 5,
+    "upgradesTo": "Empereur du Chaos",
+    "uniques": [
+      "Gains [110] XP for every kill",
+      "Absorbs defeated units (gain 10% of their combat strength)",
+      "Can move after attacking"
+    ]
+  },
+  {
+    "name": "Empereur du Chaos",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 1100,
+    "combat": 190,
+    "movement": 5,
+    "upgradesTo": "Dévoreur d'Âmes",
+    "uniques": [
+      "Gains [120] XP for every kill",
+      "All enemy units in adjacent tiles take [15] damage per turn",
+      "Can sacrifice population for combat bonus (+10% per pop)"
+    ]
+  },
+  {
+    "name": "Dévoreur d'Âmes",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 1200,
+    "combat": 220,
+    "movement": 6,
+    "upgradesTo": "Parangon du Mal Absolu",
+    "uniques": [
+      "Gains [130] XP for every kill",
+      "Can consume [Great Person] for permanent +5 combat strength",
+      "Immune to [Morale] effects"
+    ]
+  },
+  {
+    "name": "Parangon du Mal Absolu",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 1350,
+    "combat": 255,
+    "movement": 6,
+    "upgradesTo": "Divinité Corrompue",
+    "uniques": [
+      "Gains [140] XP for every kill",
+      "Can use enemy roads as if they were your own",
+      "Double movement in [Hills] and [Mountains]"
+    ]
+  },
+  {
+    "name": "Divinité Corrompue",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 1500,
+    "combat": 295,
+    "movement": 6,
+    "upgradesTo": "Némésis Originelle",
+    "uniques": [
+      "Gains [150] XP for every kill",
+      "Can convert adjacent [Barbarian] units to your side",
+      "Heals fully after killing a unit"
+    ]
+  },
+  {
+    "name": "Némésis Originelle",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 1650,
+    "combat": 340,
+    "movement": 6,
+    "upgradesTo": "Ultime Fléau",
+    "uniques": [
+      "Gains [160] XP for every kill",
+      "Creates a [Zone de Désolation] (2 tiles radius reducing enemy combat by 15%)",
+      "Can attack from 2 tiles away"
+    ]
+  },
+  {
+    "name": "Ultime Fléau",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 1800,
+    "combat": 390,
+    "movement": 7,
+    "upgradesTo": "Eclipse Vivante",
+    "uniques": [
+      "Gains [170] XP for every kill",
+      "Can appear in any tile with [Pillage] improvement",
+      "Units adjacent to this unit cannot heal"
+    ]
+  },
+  {
+    "name": "Eclipse Vivante",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 2000,
+    "combat": 450,
+    "movement": 7,
+    "upgradesTo": "Anéantissement Total",
+    "uniques": [
+      "Gains [180] XP for every kill",
+      "Can move through enemy units",
+      "Enemy cities within 3 tiles lose [10]% of their defense per turn"
+    ]
+  },
+  {
+    "name": "Anéantissement Total",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 2250,
+    "combat": 520,
+    "movement": 7,
+    "upgradesTo": "Crépuscule Éternel",
+    "uniques": [
+      "Gains [190] XP for every kill",
+      "Can capture enemy [Great Works]",
+      "Each kill increases combat strength by +1 permanently (max 50)"
+    ]
+  },
+  {
+    "name": "Crépuscule Éternel",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 2500,
+    "combat": 600,
+    "movement": 8,
+    "upgradesTo": "Nullité Cosmique",
+    "uniques": [
+      "Gains [200] XP for every kill",
+      "Can teleport between any of your cities",
+      "Damage taken is reduced by 50% from all sources"
+    ]
+  },
+  {
+    "name": "Nullité Cosmique",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 2800,
+    "combat": 700,
+    "movement": 8,
+    "upgradesTo": "Éveil du Néant",
+    "uniques": [
+      "Gains [210] XP for every kill",
+      "Can absorb Great Works for +10 combat strength",
+      "All enemy units in sight lose [10] HP per turn"
+    ]
+  },
+  {
+    "name": "Éveil du Néant",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 3100,
+    "combat": 820,
+    "movement": 8,
+    "upgradesTo": "Aube du Chaos",
+    "uniques": [
+      "Gains [220] XP for every kill",
+      "Can steal [Technology] from defeated civilizations",
+      "Creates a [Rift Dimensionnel] when killing a unit (reduces enemy movement)"
+    ]
+  },
+  {
+    "name": "Aube du Chaos",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 3400,
+    "combat": 960,
+    "movement": 9,
+    "upgradesTo": "Apothéose Démoniaque",
+    "uniques": [
+      "Gains [230] XP for every kill",
+      "Can convert captured cities to [Noyau Démoniaque] automatically",
+      "All your cities produce +50% [Faith] when this unit exists"
+    ]
+  },
+  {
+    "name": "Apothéose Démoniaque",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 3800,
+    "combat": 1120,
+    "movement": 9,
+    "upgradesTo": "Déicide Vivant",
+    "uniques": [
+      "Gains [240] XP for every kill",
+      "Can defeat [Divine] units permanently",
+      "Gains +5 combat strength per era progressed"
+    ]
+  },
+  {
+    "name": "Déicide Vivant",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 4200,
+    "combat": 1300,
+    "movement": 9,
+    "upgradesTo": "Ascendance des Ténèbres",
+    "uniques": [
+      "Gains [250] XP for every kill",
+      "Can absorb [Holy Sites] for permanent combat boost",
+      "Immune to all negative effects"
+    ]
+  },
+  {
+    "name": "Ascendance des Ténèbres",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 4700,
+    "combat": 1500,
+    "movement": 10,
+    "upgradesTo": "Principe du Mal",
+    "uniques": [
+      "Gains [260] XP for every kill",
+      "Can control captured [Great Prophets]",
+      "All enemy units lose [25]% combat strength within 5 tiles"
+    ]
+  },
+  {
+    "name": "Principe du Mal",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 5200,
+    "combat": 1720,
+    "movement": 10,
+    "upgradesTo": "Incarnation du Péché",
+    "uniques": [
+      "Gains [270] XP for every kill",
+      "Can create [Corruption] on enemy tiles (blocks resource usage)",
+      "Each city conquered increases combat strength by +2 permanently"
+    ]
+  },
+  {
+    "name": "Incarnation du Péché",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 5800,
+    "combat": 1960,
+    "movement": 10,
+    "upgradesTo": "Concept Absolu",
+    "uniques": [
+      "Gains [280] XP for every kill",
+      "Can convert [Wonder] to [Temple Démoniaque]",
+      "Heals 50 HP per turn regardless of action"
+    ]
+  },
+  {
+    "name": "Concept Absolu",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 6500,
+    "combat": 2240,
+    "movement": 11,
+    "upgradesTo": "Raison d'Être",
+    "uniques": [
+      "Gains [290] XP for every kill",
+      "Can permanently remove [City-State] alliances",
+      "Gains +1 movement per every 10 levels of XP"
+    ]
+  },
+  {
+    "name": "Raison d'Être",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 7300,
+    "combat": 2560,
+    "movement": 11,
+    "upgradesTo": "Absolu Primordial",
+    "uniques": [
+      "Gains [300] XP for every kill",
+      "Can change the terrain of tiles to [Corrupted Land]",
+      "Enemy units defeated become [Souffres Démoniaques] under your control"
+    ]
+  },
+  {
+    "name": "Absolu Primordial",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 8200,
+    "combat": 2920,
+    "movement": 11,
+    "upgradesTo": "Oméga Démoniaque",
+    "uniques": [
+      "Gains [310] XP for every kill",
+      "Can absorb [Natural Wonders] for permanent +10 combat strength",
+      "Creates a copy of itself when killing a [Hero] unit"
+    ]
+  },
+  {
+    "name": "Oméga Démoniaque",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 9200,
+    "combat": 3340,
+    "movement": 12,
+    "upgradesTo": "Alpha de la Fin",
+    "uniques": [
+      "Gains [320] XP for every kill",
+      "Can destroy enemy [Capital] in one attack if below 25% HP",
+      "All your units gain +25% combat strength when this unit is alive"
+    ]
+  },
+  {
+    "name": "Alpha de la Fin",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 10300,
+    "combat": 3820,
+    "movement": 12,
+    "upgradesTo": "Symphonie du Chaos",
+    "uniques": [
+      "Gains [330] XP for every kill",
+      "Can create [Chaos Vortex] that damages all units within 3 tiles by 20 HP per turn",
+      "Immortal: This unit cannot die except by [Divine Intervention]"
+    ]
+  },
+  {
+    "name": "Symphonie du Chaos",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 11500,
+    "combat": 4380,
+    "movement": 12,
+    "upgradesTo": "Évolution Transcendante",
+    "uniques": [
+      "Gains [340] XP for every kill",
+      "Can play [Chaos Symphony] affecting all enemy units globally (-20% combat strength for 10 turns)",
+      "Each Great Person consumed grants +15 combat strength"
+    ]
+  },
+  {
+    "name": "Évolution Transcendante",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 12800,
+    "combat": 5020,
+    "movement": 13,
+    "upgradesTo": "Existence Paradoxale",
+    "uniques": [
+      "Gains [350] XP for every kill",
+      "Exists in multiple locations simultaneously (can be in 2 places at once)",
+      "Can sacrifice half health to double combat strength for one attack"
+    ]
+  },
+  {
+    "name": "Existence Paradoxale",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 14200,
+    "combat": 5760,
+    "movement": 13,
+    "upgradesTo": "Théorie Démonique",
+    "uniques": [
+      "Gains [360] XP for every kill",
+      "Can manipulate time (reset movement after attacking once per 10 turns)",
+      "Enemy attacks have 50% chance to miss"
+    ]
+  },
+  {
+    "name": "Théorie Démonique",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 15800,
+    "combat": 6620,
+    "movement": 13,
+    "upgradesTo": "Métaphysique Corrompue",
+    "uniques": [
+      "Gains [370] XP for every kill",
+      "Can alter game rules locally (change tile yields for 10 turns)",
+      "Gains combat strength equal to 10% of enemy's combat strength"
+    ]
+  },
+  {
+    "name": "Métaphysique Corrompue",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 17600,
+    "combat": 7600,
+    "movement": 14,
+    "upgradesTo": "Principe Fondamental",
+    "uniques": [
+      "Gains [380] XP for every kill",
+      "Can deny [Faith] generation for all enemy civilizations for 5 turns",
+      "Transforms 50% of damage taken into combat strength"
+    ]
+  },
+  {
+    "name": "Principe Fondamental",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 19600,
+    "combat": 8740,
+    "movement": 14,
+    "upgradesTo": "Source Originelle",
+    "uniques": [
+      "Gains [390] XP for every kill",
+      "Can rewrite tile properties (change terrain type permanently every 20 turns)",
+      "Immune to [Nuclear] and [Atomic] damage"
+    ]
+  },
+  {
+    "name": "Source Originelle",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 21800,
+    "combat": 10060,
+    "movement": 14,
+    "upgradesTo": "Point Oméga",
+    "uniques": [
+      "Gains [400] XP for every kill",
+      "Can create a [Black Hole] that destroys all units and improvements in 4 tile radius",
+      "Respawns after 10 turns if defeated (once per game)"
+    ]
+  },
+  {
+    "name": "Point Oméga",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 24200,
+    "combat": 11580,
+    "movement": 15,
+    "upgradesTo": "Singularité Démonique",
+    "uniques": [
+      "Gains [410] XP for every kill",
+      "Can end a civilization's existence (remove all their cities except capital)",
+      "Gains +100 combat strength per era after Industrial"
+    ]
+  },
+  {
+    "name": "Singularité Démonique",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 26800,
+    "combat": 13330,
+    "movement": 15,
+    "upgradesTo": "Axe du Mal Universel",
+    "uniques": [
+      "Gains [420] XP for every kill",
+      "Can collapse enemy civilization's [Culture] production to 0 for 20 turns",
+      "Conquered cities become [Démonopole] automatically"
+    ]
+  },
+  {
+    "name": "Axe du Mal Universel",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 29600,
+    "combat": 15360,
+    "movement": 15,
+    "upgradesTo": "Ultime Réalité",
+    "uniques": [
+      "Gains [430] XP for every kill",
+      "Can shift alignment of any unit to [Démon] permanently",
+      "Every 10 kills grants a [Wish] that can change game mechanics"
+    ]
+  },
+  {
+    "name": "Ultime Réalité",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 32600,
+    "combat": 17700,
+    "movement": 16,
+    "upgradesTo": "Éveil Cosmique",
+    "uniques": [
+      "Gains [440] XP for every kill",
+      "Can create a pocket dimension (city immune to attacks for 10 turns)",
+      "All enemy [Great People] spawn as [Corrupted] versions under your control"
+    ]
+  },
+  {
+    "name": "Éveil Cosmique",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 35800,
+    "combat": 20400,
+    "movement": 16,
+    "upgradesTo": "Déité du Chaos Total",
+    "uniques": [
+      "Gains [450] XP for every kill",
+      "Can manipulate victory conditions (delay any victory by 50 turns)",
+      "Absorbs all resources from conquered cities permanently"
+    ]
+  },
+  {
+    "name": "Déité du Chaos Total",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 39200,
+    "combat": 23500,
+    "movement": 16,
+    "upgradesTo": "Incarnation de la Fin",
+    "uniques": [
+      "Gains [460] XP for every kill",
+      "Can reset enemy technology tree (revert to previous era)",
+      "Every 5 turns, copies the strongest enemy unit's abilities"
+    ]
+  },
+  {
+    "name": "Incarnation de la Fin",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 42800,
+    "combat": 27050,
+    "movement": 17,
+    "upgradesTo": "Néant Personnifié",
+    "uniques": [
+      "Gains [470] XP for every kill",
+      "Can delete any tile from the map (becomes void tile)",
+      "Your civilization's [Happiness] is always maximum"
+    ]
+  },
+  {
+    "name": "Néant Personnifié",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 46600,
+    "combat": 31150,
+    "movement": 17,
+    "upgradesTo": "Ombre du Créateur",
+    "uniques": [
+      "Gains [480] XP for every kill",
+      "Can create [Anti-Matter] bombs that destroy 3x3 tile area completely",
+      "All civilizations have [Fear] (-50% combat strength) against this unit"
+    ]
+  },
+  {
+    "name": "Ombre du Créateur",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 50600,
+    "combat": 35850,
+    "movement": 17,
+    "upgradesTo": "Paradoxe Final",
+    "uniques": [
+      "Gains [490] XP for every kill",
+      "Can rewrite game rules permanently (increase unit cap, change victory conditions)",
+      "Exists beyond time (cannot be affected by time-based effects)"
+    ]
+  },
+  {
+    "name": "Paradoxe Final",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 54800,
+    "combat": 41250,
+    "movement": 18,
+    "upgradesTo": "Dieu Démon Ultime",
+    "uniques": [
+      "Gains [500] XP for every kill",
+      "Can cause [Time Paradox] resetting all enemy units to previous era every 50 turns",
+      "Your civilization cannot lose by any victory condition"
+    ]
+  },
+  {
+    "name": "Dieu Démon Ultime",
+    "unitType": "Melee",
+    "uniqueTo": "Démons",
+    "cost": 60000,
+    "combat": 47500,
+    "movement": 20,
+    "uniques": [
+      "Gains [1000] XP for every kill",
+      "Can end the game instantly (Victory: [Ascension Absolue])",
+      "Transcends all game mechanics: immune to everything, can act infinitely, can reshape the world at will",
+      "Can convert any unit, city, or improvement to your civilization",
+      "Permanent: Cannot be removed or destroyed by any means"
+    ]
+  }
+]
