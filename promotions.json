@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Absorption d'Âme",
+    "uniques": [
+      "Heal [25] damage if kills a unit",
+      "Gain [10] XP from kills"
+    ],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Fureur Démoniaque",
+    "uniques": [
+      "[+15]% Combat Bonus when below [50] HP",
+      "Can attack twice if unit has full HP"
+    ],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Aura Céleste",
+    "uniques": [
+      "Adjacent units gain [10] HP per turn",
+      "[+10]% Combat Strength for adjacent units"
+    ],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Écailles Draconiques",
+    "uniques": [
+      "Damage taken reduced by [25]%",
+      "Immune to [Fire] damage"
+    ],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Forme Éthérée",
+    "uniques": [
+      "Can move through enemy units",
+      "[+50]% chance to evade attacks"
+    ],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Génie Humain",
+    "uniques": [
+      "Gains [50]% more XP",
+      "Can earn [Great General] points from combat"
+    ],
+    "unitTypes": ["Melee"]
+  },
+  {
+    "name": "Divinité",
+    "uniques": [
+      "Can act multiple times per turn",
+      "All enemy units within 2 tiles have [-15]% combat strength",
+      "Can upgrade without any cost"
+    ],
+    "unitTypes": ["Melee"]
+  }
+]
